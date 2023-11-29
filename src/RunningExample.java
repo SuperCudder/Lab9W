@@ -4,7 +4,8 @@ public class RunningExample {
 		int[] arr = { 823, 124, 999, 331, 723 };
 
 		RadixSortQueue rsq = new RadixSortQueue();
-		System.out.print(rsq);
+		
+		System.out.print(rsq.sort(arr));
 		
 		
 	}
